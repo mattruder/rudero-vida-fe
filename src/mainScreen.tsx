@@ -1,5 +1,7 @@
 import {MainScreenProps, UserData, UserObject} from './App'
 
+import {useState} from 'react'
+
 export default function MainScreen({currentUser}: MainScreenProps){
 
     return (
